@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "embARC"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "embARC team"
+description              : "Embedded Development Community for ARC Processors"
 url                      : "https://fbedard.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /minimal-mistakes # the subpath of your site, e.g. "/blog"
 repository               : "fbedard/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
